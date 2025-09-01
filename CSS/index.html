@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- <style>
+      .container {
+        display: grid;
+        grid-template-columns: 30px 50px 30px;
+        grid-template-rows: 20px 20px;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        justify-content: space-around;
+        /* align-items:center; */
+      }
+      .items {
+        background-color: lightcoral;
+        border: 3px green solid;
+        border-radius: 3px;
+      }
+      #box1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+     #box2{
+        grid-row-start: 2;
+        grid-row-end: 6;
+     }
+     #box3{
+        grid-column-start: 2;
+        grid-column-end: 4;
+     }
+
+    </style> -->
+
+    <style>
+      .container1 {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 100px 200px 100px;
+        gap: 10px;
+        text-align: center;
+      }
+      div div {
+        border: 2px solid black;
+      }
+      #header {
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      #content {
+        background-color: yellow;
+      }
+      #sidebar {
+        background-color: aqua;
+      }
+      #footer {
+        background-color: brown;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      @media (min-width: 600px) {
+        body {
+          background: lightblue;
+        }
+      }
+      @media (max-width:500px) {
+        p{
+            background-color: black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="items" id="box1"> 1</div>
+      <div class="items" id="box2"> 2</div>
+      <div class="items" id="box3"> 3</div>
+      <div class="items"> 4</div>
+      <div class="items"> 5</div>
+      <div class="items"> 6</div>
+      <div class="items"> 7</div>
+      <div class="items"> 8</div>
+      <div class="items"> 9</div>
+    </div> -->
+
+    <!-- <div class="container1">
+      <div id="header">Header</div>
+      <div id="content">Content</div>
+      <div id="sidebar">Sidebar</div>
+      <div id="footer">Footer</div>
+    </div>
+    <p>Hello we are using media query</p> -->
+  <script src="../JavaScript/index.js"></script>
+  </body>
+</html>

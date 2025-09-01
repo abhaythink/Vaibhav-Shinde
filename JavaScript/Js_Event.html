@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="myBtn">Click Me</button>
+
+    <script>
+      document.getElementsByClassName("myBtn").item(0).addEventListener("click", function () {
+        console.log("Button was clicked!");
+      });
+      document.getElementById("myBtn").addEventListener("dblclick",function(){
+        alert("dubble click");
+      });
+      document.getElementById("myBtn").addEventListener("mouseover",()=>{
+        console.log("mouse over");
+      })
+
+    </script>
+  </body>
+</html>

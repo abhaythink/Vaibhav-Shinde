@@ -1,0 +1,114 @@
+/* 1. Universal Selector */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* 2. Type (Element) Selector */
+/* p{
+    background-color: aqua;
+    margin-bottom: 20px;
+} */
+/* 3. Class Selector */
+/* .myClass{
+    font-size: 18px;
+} */
+/* 4. ID Selector */
+/* #myId{
+    background-color: yellow;
+} */
+/* 5. Grouping Selector */
+/* h1,h2{
+    font-family: 'Franklin s Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+/* 6. Descendant Selector */
+/* div p{
+    background-color: tan;
+} */
+/* 7. Child Selector */
+/* div > p{
+    color: blue;
+} */
+/* 8. Adjacent Sibling Selector */
+/* #prev + #next{
+    color: gold;
+} */
+/* 9. General Sibling Selector */
+/* h1 ~ div {
+    background-color: brown;
+} */
+/* 10. Attribute Selector */
+/* Elements with title attribute */
+/* [title] {
+  border: 1px solid blue;
+} */
+/* 11. Pseudo-classes */
+/* a:hover{
+    color: red;
+} */
+
+/* p:nth-child(1) {
+  color: red;
+} */
+
+/* 12. Pseudo-elements */
+/* p::before{
+    content: "Note : ";
+    color: red;
+} */
+
+/* Insert content after element */
+/* p::after {
+  content: " ✔";
+  color: green;
+} */
+
+/* Style first letter */
+/* p::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    box-sizing: initial;
+} */
+/* #backgroundAndBorder{
+    background-color: aqua;
+    background-image: url("");
+    background-size: contain;
+} */
+
+/* #backgroundAndBorder{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    background: linear-gradient(to right , red,blue);
+    background: radial-gradient(circle, red, blue);
+} */
+
+/* p{
+    display:block;
+} */
+
+/* div{
+    position: static;
+
+} */
+
+
+/* .container{
+    height: 200px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+} */
+/* .container{
+    display: grid;
+    grid-template-columns: 200px;
+} */
